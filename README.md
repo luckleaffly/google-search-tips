@@ -1,7 +1,7 @@
 ## google 搜索
 
-> [虫部落](http://bbs.chongbuluo.com/thread-1796-1-1.html)  
-> [Google搜索前沿](https://www.google.com/intl/zh-Cn/insidesearch) 
+> [~~虫部落-链接已失效~~](http://bbs.chongbuluo.com/thread-1796-1-1.html)  
+> [~~Google搜索前沿-链接已失效~~](https://www.google.com/intl/zh-Cn/insidesearch) 
 
 
 ### 搜索运算符
