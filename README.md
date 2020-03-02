@@ -8,11 +8,11 @@
 ---
 关键字      |说明                |例子 
 ------------|--------------------|---------
-site        |仅从特定网站或网域获得搜索结果                             |site:www.ocj.com.cn 手机
-link        |查找链接到某个特定网页的网页(网页中包含www.ocj.com.cn链接) |link:www.ocj.com.cn
-related     |查找与该网站相似的网站                                     |related:www.ocj.com.cn
-cache       |查看网页在Google上的缓存                                   |cache:www.ocj.com.cn
-info        |查询site/link/related/cache四种信息，目前无效              |info:www.ocj.com.cn
+site        |仅从特定网站或网域获得搜索结果                             |site:www.tmall.com 手机
+link        |查找链接到某个特定网页的网页(网页中包含www.tmall.com链接) |link:www.tmall.com
+related     |查找与该网站相似的网站                                     |related:www.tmall.com
+cache       |查看网页在Google上的缓存                                   |cache:www.tmall.com
+info        |查询site/link/related/cache四种信息，目前无效              |info:www.tmall.com
 inurl       |查找在URL地址里有搜索关键词的页面,bd也支持                 |inurl:ocj
 allinurl    |与allintitle: 类似。allinurl:SEO 搜索引擎优化,就相当于 ：inurl:SEO inurl:搜索引擎优化|
 intitle     |查找在网页标题里有搜索关键词的页面                         |intitle:手机
@@ -25,7 +25,7 @@ filetype    |查找pdf,xml,xls,txt,doc,csv等特定格式的结果              
 双引号      |把搜索词放在双引号中，代表完全匹配搜索，也就是说搜索结果返回的页面包含双引号中出现的所有的词，连顺序也必须完全匹配。bd和Google 都支持这个指令。|例如搜索： “seo方法图片”
 减号        |减号代表搜索不包含减号后面的词的页面。使用这个指令时减号前面必须是空格，减号后面没有空格，紧跟着需要排除的词。Google 和bd都支持这个指令。      |"搜索 -引擎" 返回的则是包含“搜索”这个词，却不包含“引擎”这个词的结果
 星号        |星号*是常用的通配符，也可以用在搜索中。百度不支持*号搜索指令。比如在Google 中搜索：搜索*擎其中的*号代表任何文字。返回的结果就不仅包含“搜索引擎”，还包含了“搜索收擎”，“搜索巨擎”等内容。
-linkdomain  |linkdomain:指令返回的是某个域名的反向链接,得到外部链接     |linkdomain:http://www.ocj.com.cn -site:http://www.ocj.com.cn
+linkdomain  |linkdomain:指令返回的是某个域名的反向链接,得到外部链接     |linkdomain:http://www.tmall.com -site:http://www.tmall.com
 组合用法    |返回的就是url 中包含gov，页面中有“减肥”这个词的页面        |inurl:gov 减肥
 
 ### 隐藏彩蛋
